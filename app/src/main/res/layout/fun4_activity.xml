@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="案例发布"
+        android:textSize="23sp"
+        android:gravity="center"
+        android:background="#C3C3C3"/>
+    <EditText
+        android:id="@+id/fun4_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="请输入案例"
+        android:textSize="16sp"
+        android:padding="5dp"
+        android:gravity="top"
+        android:background="@null"/>
+    <Button
+        android:id="@+id/fun4_submit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="发布"
+        android:textSize="20sp"
+        android:background="#cccccc"/>
+
+</LinearLayout>

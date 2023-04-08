@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/parkName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            ></TextView>
+        <TextView
+            android:id="@+id/entryTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="入场时间"
+            android:textSize="15sp"
+            android:layout_below="@+id/parkName"
+            android:layout_alignLeft="@+id/parkName"
+            ></TextView>
+        <TextView
+            android:id="@+id/outTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="入场时间"
+            android:layout_below="@+id/parkName"
+            android:layout_alignRight="@+id/outTime_in"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/entryTime_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="入场时间"
+            android:textSize="15sp"
+            android:layout_below="@+id/entryTime"
+            android:layout_alignLeft="@+id/parkName"
+            android:textColor="@color/colorAccent"
+            ></TextView>
+        <TextView
+            android:id="@+id/outTime_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="入场时间"
+            android:layout_below="@+id/entryTime"
+            android:layout_toRightOf="@+id/entryTime_in"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorAccent"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/monetary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="收费金额"
+            android:layout_below="@+id/entryTime_in"
+            android:layout_marginLeft="20dp"
+            android:textSize="15sp"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/plateNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="车牌号"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/monetary"
+            android:textColor="@color/colorPrimary"
+            ></TextView>
+    </RelativeLayout>
+
+
+</LinearLayout>

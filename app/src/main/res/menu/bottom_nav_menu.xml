@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/indexMianFragment"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="首页"/>
+
+    <item
+        android:id="@+id/allMainragment"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="全部服务"/>
+
+    <item
+        android:id="@+id/homePageFragment"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="智慧扶贫"/>
+
+    <item
+        android:id="@+id/newMainFragment"
+        android:icon="@drawable/bus"
+        android:title="新闻"/>
+
+    <item
+        android:id="@+id/userMainFragment"
+        android:icon="@drawable/user"
+        android:title="个人中心"/>
+
+</menu>

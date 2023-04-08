@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".movies.MoviesDetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#49A9F4">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/back"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="电影详情"
+            android:textSize="20dp"></TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/m_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/pic"
+            android:layout_width="160dp"
+            android:layout_height="240dp"
+            android:src="@drawable/user"
+            android:scaleType="fitXY"
+            ></ImageView>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/pic"
+            android:gravity="center"
+            android:text="name"
+            android:textSize="30dp"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/pic"
+            android:layout_below="@+id/name"
+            android:text="pingfen"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/playDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/pic"
+            android:layout_below="@+id/score"
+            android:text="pingfen"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/likeNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/pic"
+            android:layout_below="@+id/playDate"
+            android:text="pingfen"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            ></TextView>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/back_up"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="主页"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        ></Button>
+</LinearLayout>

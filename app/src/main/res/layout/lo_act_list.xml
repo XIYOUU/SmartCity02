@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:id="@+id/imgUrl"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/user"
+            android:scaleType="fitXY"
+            >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgUrl"
+            android:gravity="center"
+            android:text="title"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/signupNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="报名人数"
+            android:layout_toRightOf="@+id/imgUrl"
+            android:layout_below="@+id/name"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/likeNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点赞数"
+            android:layout_toRightOf="@+id/imgUrl"
+            android:layout_below="@+id/signupNum"
+            >
+        </TextView>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/indexMianFragment">
+    <fragment
+        android:id="@+id/indexMianFragment"
+        android:name="com.example.smartcity02.index.IndexMianFragment"
+        android:label="fragment_index_mian"
+        tools:layout="@layout/fragment_index_mian" >
+        <action
+            android:id="@+id/action_indexMianFragment_to_allMainragment"
+            app:destination="@id/allMainragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/allMainragment"
+        android:name="com.example.smartcity02.all.AllMainragment"
+        android:label="fragment_all_mainragment"
+        tools:layout="@layout/fragment_all_mainragment" />
+    <fragment
+        android:id="@+id/newMainFragment"
+        android:name="com.example.smartcity02.news.NewMainFragment"
+        android:label="fragment_new_main"
+        tools:layout="@layout/fragment_new_main" />
+    <fragment
+        android:id="@+id/userMainFragment"
+        android:name="com.example.smartcity02.user.UserMainFragment"
+        android:label="fragment_user_main"
+        tools:layout="@layout/fragment_user_main" />
+    <fragment
+        android:id="@+id/homePageFragment"
+        android:name="freemodule.HomePageFragment"
+        android:label="HomePageFragment" />
+</navigation>

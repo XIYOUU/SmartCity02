@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartcity02">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="智慧城市"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".user.OrderListActivity" />
+        <activity android:name="freemodule.Fun1Activity" />
+        <activity android:name="freemodule.Fun2Activity" />
+        <activity android:name="freemodule.Fun3Activity" />
+        <activity android:name="freemodule.Fun4Activity" />
+        <activity android:name="freemodule.FInfoActivity" />
+        <activity android:name=".park.ParkDetailActivity" />
+        <activity android:name=".park.ParkHistoryActivity" />
+        <activity android:name=".park.ParkMainActivity" />
+        <activity android:name=".all.IntentActivity" />
+        <activity android:name=".TO.ToSellerActivity" />
+        <activity android:name=".TO.TOBannerDetailActivity" />
+        <activity android:name=".TO.TOMainActivity" />
+        <activity android:name=".movies.MoviesDetailActivity" />
+        <activity android:name=".movies.MoviesMainActivity" />
+        <activity android:name=".bus.BusDIngZhiActivity" />
+        <activity android:name=".bus.BusMainActivity" />
+        <activity android:name=".dataAna.AnaMainActivity" />
+        <activity android:name=".act.ActPinLunActivity" />
+        <activity android:name=".act.ActDetailActivity" />
+        <activity android:name=".act.ActMainActivity" />
+        <activity android:name=".city.AllActivity" />
+        <activity android:name=".index.NewDetailActivity" />
+        <activity android:name=".city.CityMainActivity" />
+        <activity android:name=".city.MetroDetailActivity" />
+        <activity android:name=".news.NewActivity" />
+        <activity android:name=".SpalshActivity2" />
+        <activity android:name=".user.UserFeedbackActivity" />
+        <activity android:name=".user.UserOrderActivity" />
+        <activity android:name=".user.UserPwdActivity" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="智慧城市" />
+        <activity android:name=".user.UserInfoActivity" />
+        <activity
+            android:name=".NavMainActivity"
+            android:label="@string/title_activity_nav_main" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

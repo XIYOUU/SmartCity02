@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".user.UserPwdActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#49A9F4">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/back"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="修改密码"
+            android:textSize="20dp"></TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="100dp"
+        >
+
+        <TextView
+            android:id="@+id/pri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="原密码："
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            ></TextView>
+        <EditText
+            android:id="@+id/priPwd_m"
+            android:layout_toRightOf="@+id/pri"
+            android:layout_width="200dp"
+            android:layout_alignBaseline="@+id/pri"
+            android:layout_height="wrap_content"></EditText>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        >
+        <TextView
+            android:id="@+id/newPWd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新密码："
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            ></TextView>
+        <EditText
+            android:id="@+id/newPwd_m"
+            android:layout_toRightOf="@+id/newPWd"
+            android:layout_width="200dp"
+            android:layout_alignBaseline="@+id/newPWd"
+            android:layout_height="wrap_content"></EditText>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/modify"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="修改"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="#49A9F4"
+        android:textSize="20dp"
+        ></Button>
+</LinearLayout>

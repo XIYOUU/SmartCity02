@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_new"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        >
+        <ImageView
+            android:id="@+id/pic"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/user"
+            ></ImageView>
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/pic"
+            android:gravity="center"
+            android:text="title"
+            ></TextView>
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/pic"
+            android:text="title"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_below="@+id/title"
+            ></TextView>
+        <TextView
+            android:id="@+id/commentNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/pic"
+            android:text="title"
+            android:layout_below="@+id/content"
+            ></TextView>
+        <TextView
+            android:id="@+id/publishDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/pic"
+            android:text="title"
+            android:layout_below="@+id/commentNum"
+            ></TextView>
+    </RelativeLayout>
+</LinearLayout>
